@@ -20,8 +20,9 @@
       const text = prompt('Please enter a text: '); <br>
       let reversedText = ''; <br>
       for (let i = text.length - 1; i >= 0; i--) reversedText += text[i]; <br>
-      document.write(reversedText);
+      document.getElementById("p").innerHTML = reversedText;
     </code>
+    <p id="p" style="color: blue;"></p>
   </section>
   <script src="app.js"></script>
 </body>
